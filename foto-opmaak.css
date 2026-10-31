@@ -1,0 +1,77 @@
+/* Familie Coops: verfijnde fotopresentatie, zonder wijzigingen aan de historische inhoud */
+:root { --photo-border:#d9cbb6; }
+/* Foto's in de artikelen centreren; breedte en oorspronkelijke verhoudingen behouden. */
+.layout > main #sites-canvas-main-content img:not(.crest) {
+  display:block !important;
+  max-width:min(100%, 680px) !important;
+  width:auto !important;
+  height:auto !important;
+  margin:0 auto !important;
+  object-fit:contain;
+  border:1px solid var(--photo-border);
+  padding:5px;
+  background:#fffdf8;
+  box-shadow:0 3px 13px rgba(49,39,26,.10);
+}
+/* Afbeeldingslinks krijgen een eigen gecentreerd blok; blijven gewoon aanklikbaar. */
+.layout > main #sites-canvas-main-content a:has(> img) {
+  display:table !important;
+  width:fit-content !important;
+  max-width:100% !important;
+  margin:1.6rem auto !important;
+  text-align:center !important;
+  float:none !important;
+  clear:both;
+}
+/* Niet-aanklikbare foto's worden eveneens gecentreerd. */
+.layout > main #sites-canvas-main-content img:not(a > img) {
+  margin-top:1.5rem !important;
+  margin-bottom:1.5rem !important;
+}
+/* Oudere uitlijningsregels uit Google Sites mogen afbeeldingen niet naar links trekken. */
+.layout > main #sites-canvas-main-content :is(div,p,span):has(> a > img) {
+  max-width:100%;
+}
+.layout > main #sites-canvas-main-content figure,
+.layout > main #sites-canvas-main-content .editorial-figure {
+  display:block;
+  margin:1.8rem auto !important;
+  text-align:center;
+  max-width:100%;
+}
+.layout > main #sites-canvas-main-content figcaption,
+.layout > main #sites-canvas-main-content .image-caption {
+  font:italic 14px/1.55 Georgia,serif;
+  color:#786f63;
+  text-align:center;
+  margin:.5rem auto 1.5rem;
+}
+/* Rustige tekstbreedte, betere scheiding van onderdelen. */
+.layout > main #sites-canvas-main-content p {max-width:82ch;}
+.layout > main #sites-canvas-main-content h2 {border-bottom:1px solid #e4d7c2;padding-bottom:.3em;}
+.layout > main #sites-canvas-main-content blockquote {border-left:3px solid #b68c47;}
+/* Lange genealogie: behoud van tabel-, anker- en linkstructuur. */
+.layout > main #sites-canvas-main-content :is(table,td,th) img {max-width:100% !important;}
+.back-to-top {position:fixed;right:22px;bottom:22px;z-index:5;background:#173b34;color:#fff9ef !important;text-decoration:none !important;
+  border:1px solid #b68c47;border-radius:99px;padding:10px 15px;font:13px Arial,sans-serif;box-shadow:0 4px 16px #0002;}
+.back-to-top:hover {background:#681f30;}
+@media(max-width:650px){.back-to-top{right:10px;bottom:10px;padding:8px 11px;font-size:12px;}}
+@media print {.back-to-top{display:none !important;}.layout > main #sites-canvas-main-content img{box-shadow:none !important;}}
+
+/* Twee of meer direct opeenvolgende historische afbeeldingen naast elkaar. */
+.layout > main #sites-canvas-main-content .coops-photo-row {
+ display:flex !important; flex-wrap:wrap; justify-content:center; align-items:flex-start;
+ gap:18px 24px; margin:1.7rem auto 1.9rem !important; max-width:100%;
+}
+.layout > main #sites-canvas-main-content .coops-photo-row > a:has(> img) {
+ display:block !important; margin:0 !important; width:auto !important; max-width:calc(50% - 12px) !important;
+ flex:0 1 auto; clear:none !important; float:none !important;
+}
+.layout > main #sites-canvas-main-content .coops-photo-row > a > img {
+ max-width:100% !important; max-height:360px; width:auto !important; height:auto !important;
+ margin:0 auto !important;
+}
+@media(max-width:520px){
+ .layout > main #sites-canvas-main-content .coops-photo-row{gap:12px;}
+ .layout > main #sites-canvas-main-content .coops-photo-row > a:has(> img){max-width:calc(50% - 6px) !important;}
+}

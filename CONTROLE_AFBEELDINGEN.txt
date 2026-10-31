@@ -1,0 +1,47 @@
+CONTROLE AFBEELDINGEN – FAMILIE COOPS
+
+Uitgangspunt: de meest recente versie waarin ook de afbeeldingen op de pagina’s
+Dirk Jan Gerhardus Mechtelinus en Enkele zeevaarders waren hersteld.
+
+Uitgevoerde controles:
+- Alle 24 HTML-bestanden (23 oorspronkelijke pagina’s plus index.html) doorlopen.
+- Alle img-verwijzingen gecontroleerd op aanwezigheid van het lokale bestand.
+- Alle bestanden met Pillow geopend en volledig gedecodeerd om corruptie vast te stellen.
+- Controle op nul-afmetingen en expliciet verborgen afbeeldingen in inline opmaak.
+- Lazy loading vervangen door direct laden, om problemen bij het lokaal openen te verminderen.
+
+Opmerking: dezelfde kopafbeelding (familiewapen) komt op meerdere pagina’s voor.
+De telling omvat daarom herhaalde plaatsingen.
+
+Beperking: de afbeeldingen zijn technisch gecontroleerd. Een volledige visuele
+controle in een browser was in deze omgeving niet mogelijk.
+
+PER PAGINA
+Antonij - Familie Coops.html: 3 afbeeldingen gecontroleerd, 2 op direct laden gezet
+Biografieën - Familie Coops.html: 1 afbeeldingen gecontroleerd
+Contact Us - Familie Coops.html: 1 afbeeldingen gecontroleerd
+Dirk Jan Gerhardus Mechtelinus - Familie Coops.html: 2 afbeeldingen gecontroleerd
+Doetinchemse Heerensociëteit - Familie Coops.html: 1 afbeeldingen gecontroleerd
+Een Japans Avontuur - Familie Coops.html: 1 afbeeldingen gecontroleerd
+Enkele zeevaarders - Familie Coops.html: 9 afbeeldingen gecontroleerd
+Familie Coops.html: 2 afbeeldingen gecontroleerd, 1 op direct laden gezet
+Genealogie - Familie Coops.html: 1 afbeeldingen gecontroleerd
+Groot Zande - Familie Coops.html: 2 afbeeldingen gecontroleerd, 1 op direct laden gezet
+Heraldiek - Familie Coops.html: 10 afbeeldingen gecontroleerd, 9 op direct laden gezet
+Herman Hendrik Timotheus - Familie Coops.html: 6 afbeeldingen gecontroleerd, 5 op direct laden gezet
+Jacobus Pieter - Familie Coops.html: 6 afbeeldingen gecontroleerd, 5 op direct laden gezet
+Jan Christian - Familie Coops.html: 4 afbeeldingen gecontroleerd, 3 op direct laden gezet
+Jan Hendrik - Familie Coops.html: 5 afbeeldingen gecontroleerd, 4 op direct laden gezet
+Johan Adriaan Herman - Familie Coops.html: 2 afbeeldingen gecontroleerd, 1 op direct laden gezet
+Johan Willem Georg - Familie Coops.html: 2 afbeeldingen gecontroleerd, 1 op direct laden gezet
+Oorsprong - Familie Coops.html: 6 afbeeldingen gecontroleerd, 5 op direct laden gezet
+Peter - Familie Coops.html: 3 afbeeldingen gecontroleerd, 2 op direct laden gezet
+Professor Jan - Familie Coops.html: 2 afbeeldingen gecontroleerd, 1 op direct laden gezet
+Tuchtiging van de Japanners in de Straat van Shimonoseki - Familie Coops.html: 4 afbeeldingen gecontroleerd, 3 op direct laden gezet
+Wolter D. Jzn. - Familie Coops.html: 3 afbeeldingen gecontroleerd, 2 op direct laden gezet
+akte 1790 - Familie Coops.html: 1 afbeeldingen gecontroleerd
+index.html: 5 afbeeldingen gecontroleerd
+
+Totaal: 82 afbeeldingsplaatsingen; 45 laadinstellingen aangepast.
+Problemen: 0
+

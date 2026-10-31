@@ -1,0 +1,19 @@
+
+:root{--wine:#681f30;--forest:#173b34;--gold:#b68c47;--paper:#f7f2e8;--ink:#292e2b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+a{color:inherit}.masthead{background:linear-gradient(100deg,#f1e8db 0%,#fbf8f2 65%,#e9e0d2 100%);border-bottom:3px solid var(--wine)}
+.masthead-inner{max-width:1350px;margin:auto;padding:25px 36px 19px;display:flex;align-items:center;justify-content:space-between;min-height:190px;gap:25px}
+.identity h1{font-weight:normal;font-size:clamp(43px,6vw,85px);line-height:1;margin:0;color:var(--wine);letter-spacing:.012em}.identity p{font:small-caps 16px Georgia,serif;letter-spacing:.18em;color:#5c6862;margin:17px 0 0}
+.crest{height:158px;width:170px;object-fit:contain;flex-shrink:0;filter:drop-shadow(0 3px 4px #0002)}
+.topnav{background:var(--forest);display:flex;justify-content:center;flex-wrap:wrap;box-shadow:0 4px 10px #0002}
+.topnav a{color:#f8f3e9;text-decoration:none;padding:17px 24px;font-size:17px;transition:background .2s}.topnav a:hover,.topnav a.active{background:var(--wine)}
+.hero{max-width:1350px;margin:0 auto;min-height:280px;padding:42px 40px 30px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 83% 48%,#d6c7ae55,transparent 43%),linear-gradient(115deg,#f7f2e8,#eee4d4)}
+.hero:after{content:'✦';position:absolute;right:10%;top:5px;font-size:240px;color:#c7b79c1c;pointer-events:none}
+.eyebrow{color:var(--forest);letter-spacing:.38em;font:12px Arial,sans-serif;font-weight:600;text-transform:uppercase}.hero h2{color:var(--wine);font-size:clamp(44px,6vw,72px);font-weight:normal;line-height:1.08;margin:13px 0 20px}.rule{height:2px;background:var(--gold);width:230px;margin-bottom:18px}.hero p{font-size:clamp(17px,2vw,21px);font-style:italic;line-height:1.65;max-width:790px;margin:0;position:relative;z-index:1}
+.cards{max-width:1350px;margin:0 auto;padding:6px 36px 62px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.card{background:#fcf9f3;border:1px solid #dacdb9;padding:12px;box-shadow:0 4px 16px #46371b0c;display:flex;flex-direction:column;text-decoration:none;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--gold)}.card img{width:100%;height:166px;object-fit:cover;filter:sepia(.25) saturate(.75)}.card img.heraldry{object-fit:contain;filter:none;background:#f9f7f2}
+.card h3{color:var(--wine);font-weight:normal;font-size:28px;margin:13px 2px 6px}.card p{color:#5d5e59;line-height:1.48;font-size:16px;margin:0 2px 17px;flex:1}.card span{color:var(--wine);font-size:16px;margin:0 2px 7px}.card span:after{content:'  →';color:var(--gold)}
+.foot{border-top:1px solid #e0d6c7;text-align:center;color:#766f63;padding:23px;font:12px Arial,sans-serif;line-height:1.6}
+@media(max-width:1000px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.topnav a{padding:13px 16px;font-size:15px}}
+@media(max-width:580px){.masthead-inner{padding:18px;min-height:125px}.identity h1{font-size:37px}.identity p{font-size:11px;letter-spacing:.07em}.crest{height:90px;width:95px}.hero{padding:30px 20px}.cards{padding:0 16px 35px;grid-template-columns:1fr}.card img{height:190px}.topnav a{font-size:13px;padding:11px 12px}}

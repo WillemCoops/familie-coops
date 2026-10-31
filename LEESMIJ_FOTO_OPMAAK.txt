@@ -1,0 +1,14 @@
+FAMILIE COOPS - FOTO- EN OPMAAKVERBETERINGEN
+
+23 inhoudspagina's aangepast. 54 afbeeldingen in de artikelinhoud, waarvan 52 aanklikbaar.
+
+Wijzigingen:
+- Afbeeldingen gecentreerd, subtiele kaders en witruimte.
+- Historische fotoformaten blijven in beginsel behouden; brede foto's passen zich aan schermbreedte aan.
+- Bestaande bijschriften blijven staan; er zijn geen nieuwe historische bijschriften verzonnen.
+- Gelijke breedte van tekstkolommen en subtiele scheidingslijn onder tussenkoppen.
+- Knop 'Naar boven' op de inhoudspagina's.
+- Alle oorspronkelijke tekst, links en ankerpunten blijven in de HTML behouden.
+
+De aanpassingen zitten in foto-opmaak.css en kunnen later eenvoudig worden gewijzigd.
+Open Familie_Coops_website/index.html.

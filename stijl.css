@@ -1,0 +1,56 @@
+
+:root{--burgundy:#762e3d;--wine:#4f2632;--green:#284b40;--ivory:#f7f2e8;--paper:#fffdf8;--gold:#b69a65;--ink:#302d2b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.68}
+.top-ribbon{background:var(--green);color:#e8e0ce;text-align:center;padding:7px 16px;letter-spacing:.19em;text-transform:uppercase;font:10px Arial,sans-serif}
+header{background:var(--paper);color:var(--wine);padding:28px max(20px,calc((100% - 1220px)/2));border-bottom:1px solid #e4d8c3;display:flex;align-items:center;justify-content:space-between;gap:20px}
+header a{color:var(--wine);text-decoration:none}header h1{font-weight:normal;letter-spacing:.045em;font-size:clamp(29px,4vw,45px);line-height:1.1;margin:0}header small{display:block;font:11px Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#786a5e;margin-top:8px}
+.header-mark{font:14px Georgia,serif;color:var(--gold);border:1px solid var(--gold);border-radius:50%;width:57px;height:57px;display:grid;place-items:center;flex-shrink:0}
+.topnav{background:var(--wine);padding:0 max(14px,calc((100% - 1220px)/2));display:flex;flex-wrap:wrap;gap:2px}
+.topnav a{color:#fff9ef;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:.075em;text-transform:uppercase;padding:16px 19px;display:inline-block}
+.topnav a:hover,.topnav a.current{background:#8a4755}
+.layout{max-width:1220px;margin:0 auto;display:grid;grid-template-columns:248px minmax(0,1fr);gap:28px;padding:32px 20px 55px}
+.layout>nav{background:var(--paper);border:1px solid #e8dfd1;padding:18px 12px;align-self:start;box-shadow:0 5px 22px #3320150a;max-height:calc(100vh - 30px);overflow-y:auto;position:sticky;top:16px}
+.layout>nav:before{content:'INHOUD';display:block;font:11px Arial,sans-serif;letter-spacing:.19em;color:var(--green);padding:3px 12px 14px;border-bottom:1px solid #e9e0d4;margin-bottom:10px}
+.layout>nav a{display:block;padding:7px 12px;color:#62484a;text-decoration:none;font:13px Arial,sans-serif;line-height:1.4;border-left:2px solid transparent}
+.layout>nav a:hover,.layout>nav a.active{background:#f3eae0;color:var(--wine);border-left-color:var(--burgundy)}
+.layout>nav a.child{padding-left:26px}.layout>nav a.grandchild{padding-left:42px;font-size:12px}
+main{min-width:0;background:var(--paper);border:1px solid #e7ddcd;box-shadow:0 10px 34px #3320150a;padding:clamp(22px,4vw,52px);overflow-wrap:anywhere;font-size:16px}
+main:before{content:'';display:block;width:74px;height:3px;background:var(--gold);margin:0 0 26px}
+main h1,main h2,main h3{color:var(--wine);font-weight:normal;line-height:1.25}main h2{font-size:clamp(26px,3vw,37px);margin:0 0 22px}main h3{font-size:23px;margin-top:32px}
+main a{color:var(--burgundy);text-underline-offset:3px}main a:hover{color:var(--green)}main img{max-width:100%;height:auto}main table{max-width:100%;display:block;overflow-x:auto}main p{margin:0 0 1em}
+main img:not([width]){border:1px solid #e4daca}footer{max-width:1220px;margin:0 auto;padding:20px;color:#85796b;font:12px Arial,sans-serif;border-top:1px solid #dfd3c2}
+.missing{color:#966b2d;border-bottom:1px dotted #966b2d}.home-intro{padding:30px 0 28px;border-bottom:1px solid #e6dccc;margin-bottom:30px}.home-intro .eyebrow{font:11px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--green)}.home-intro h2{font-size:clamp(34px,4vw,53px);margin:12px 0}.home-intro p{font-size:18px;color:#64584d}.home-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0}.home-links a{display:block;border:1px solid #e0d2bf;background:#fbf7f0;text-decoration:none;padding:22px;color:var(--wine);font-size:22px}.home-links a span{display:block;font:12px Arial,sans-serif;color:#72695e;margin-top:7px}.home-links a:hover{border-color:var(--burgundy);background:#f5eee4}
+@media(max-width:800px){header{padding:20px}.topnav{justify-content:center}.topnav a{padding:12px}.layout{display:block;padding:16px 12px 36px}.layout>nav{position:static;max-height:none;margin-bottom:18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px}.layout>nav:before{grid-column:1/-1}main{padding:24px}.home-links{grid-template-columns:1fr}}
+@media print{.top-ribbon,.topnav,.layout>nav{display:none}.layout{display:block}main{border:none;box-shadow:none}}
+
+/* Uniforme redactionele vormgeving – oorspronkelijke Google Sites opmaak overschrijven */
+main{font-size:17px;line-height:1.78}
+main #sites-canvas-main-content{width:100%;max-width:none;min-width:0;font:inherit;color:inherit}
+main #sites-canvas-main-content :is(p,div,span,td,li){font-family:inherit;line-height:inherit}
+main #sites-canvas-main-content :is(p,div,span,td,li)[align="center"]{text-align:center}
+main #sites-canvas-main-content p{margin:0 0 1.15em;max-width:78ch}
+main #sites-canvas-main-content :is(h1,h2,h3,h4){font-family:Georgia,'Times New Roman',serif;color:var(--wine);font-weight:normal;line-height:1.3;clear:both}
+main #sites-canvas-main-content h1{font-size:2rem;margin:1.5em 0 .5em}
+main #sites-canvas-main-content h2{font-size:1.7rem;margin:1.4em 0 .55em}
+main #sites-canvas-main-content h3{font-size:1.35rem;margin:1.3em 0 .5em}
+main #sites-canvas-main-content h4{font-size:1.12rem;margin:1.2em 0 .5em}
+main #sites-canvas-main-content a{color:var(--burgundy);text-decoration-thickness:1px;text-underline-offset:3px}
+main #sites-canvas-main-content img{max-width:100%;height:auto;object-fit:contain}
+main #sites-canvas-main-content figure{max-width:100%;margin:1.5em auto}
+main #sites-canvas-main-content blockquote{margin:1.5em 0;padding:1em 1.5em;border-left:3px solid var(--gold);background:#f8f3eb}
+main #sites-canvas-main-content ul,main #sites-canvas-main-content ol{padding-left:1.7em;margin:0 0 1.3em}
+main #sites-canvas-main-content li{margin-bottom:.35em}
+main #sites-canvas-main-content .sites-layout-hbox,main #sites-canvas-main-content .sites-layout-vbox,main #sites-canvas-main-content .sites-layout-tile{width:100%;max-width:none;display:block}
+main #sites-canvas-main-content .sites-layout-tile{margin-bottom:1.2em}
+main #sites-canvas-main-content .sites-layout-name-two-column-hf{display:block}
+main #sites-canvas-main-content .editorial-figure{margin:1.4em 0;max-width:100%}
+main #sites-canvas-main-content .editorial-figure img{max-height:580px;width:auto}
+main #sites-canvas-main-content table:not(.genealogy-table){border-collapse:collapse;width:100%;max-width:100%;margin:1em 0;display:table;overflow:visible}
+main #sites-canvas-main-content table:not(.genealogy-table) td{padding:8px 10px;vertical-align:top}
+main #sites-canvas-main-content .genealogy-table{max-width:100%;width:auto;border-collapse:collapse;margin:0 0 .75em;display:table;overflow:visible;font-size:.94em;line-height:1.5}
+main #sites-canvas-main-content .genealogy-table td{vertical-align:top;padding:2px 6px}
+main #sites-canvas-main-content .genealogy-table p{margin:0 0 .35em;max-width:none}
+main.genealogy-page{font-size:15.5px;line-height:1.55;padding:clamp(20px,3vw,40px)}
+main.genealogy-page #sites-canvas-main-content :is(p,div,span,td,li){line-height:1.55}
+main.genealogy-page #sites-canvas-main-content p{max-width:none}
+@media(max-width:780px){main{font-size:16px}main.genealogy-page{font-size:14px}main #sites-canvas-main-content .genealogy-table{font-size:1em}}
