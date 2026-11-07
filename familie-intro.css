@@ -1,0 +1,53 @@
+.familie-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: stretch;
+  overflow: hidden;
+  margin: 0 0 1.75rem;
+  border: 1px solid #ded3c4;
+  border-radius: .35rem;
+  background: #f1e8db;
+}
+.familie-intro.familie-intro-met-beeld {
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+}
+.familie-intro-tekst {
+  align-self: center;
+  padding: clamp(1.4rem, 4vw, 3.25rem);
+}
+.familie-intro .familie-intro-rubriek {
+  margin: 0 0 .85rem;
+  color: #173b34;
+  font: 600 .75rem/1.4 system-ui, sans-serif;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.familie-intro .familie-intro-tekst h2 {
+  margin: 0;
+  color: #681f30;
+  font-size: clamp(1.9rem, 4vw, 3.5rem);
+  font-weight: normal;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+.familie-intro-tekst h2 + p { margin: .85rem 0 0; max-width: 52ch; }
+.familie-intro > img {
+  display: block;
+  width: 100%;
+  height: clamp(12rem, 27vw, 19rem);
+  border: 0;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.familie-intro-wapen > img { object-fit: contain; padding: 1rem; }
+.familie-intro-home { max-width: 1278px; margin: 2rem auto 1.75rem; width: calc(100% - 2rem); }
+.familie-intro.hero.familie-intro-jean {
+  margin-top: 2rem;
+  gap: clamp(1rem, 4vw, 2.5rem);
+  align-items: center;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+@media (max-width: 680px) {
+  .familie-intro.familie-intro-met-beeld { grid-template-columns: minmax(0, 1fr); }
+  .familie-intro > img { height: min(55vw, 14rem); }
+}

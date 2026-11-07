@@ -45,7 +45,7 @@ h3 { margin: 1.35rem 0 .25rem; color: var(--wine); font-size: 1.25rem; line-heig
 p { margin: 0 0 1rem; }
 .archive p { margin-bottom: .55rem; }
 .ref { font: .78em system-ui, sans-serif; white-space: nowrap; }
-.meerhuizen-figure { max-width: 620px; margin: 1.4rem auto 1.6rem; }
+.article-plate { max-width: 620px; margin: 1.4rem auto 1.6rem; }
 .family-leads { padding-left: 1.25em; }
 .family-leads li { margin-bottom: .6rem; }
 [id] { scroll-margin-top: 1rem; }
@@ -72,3 +72,5 @@ p { margin: 0 0 1rem; }
   figure { width: min(100%, 420px); break-inside: avoid; box-shadow: none; }
   h2, h3 { break-after: avoid; }
 }
+
+.hero.familie-intro-jean { grid-template-columns: minmax(0, 1fr); }

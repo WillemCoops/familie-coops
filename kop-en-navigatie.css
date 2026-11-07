@@ -11,8 +11,7 @@ body{background:#f7f2e8;color:#292e2b}
 .topnav{background:#173b34;display:flex;justify-content:center;flex-wrap:wrap;gap:0;padding:0;box-shadow:0 4px 10px #0002}
 .topnav a{color:#f8f3e9;text-decoration:none;padding:17px 24px;font:17px Georgia,serif;letter-spacing:0;text-transform:none;transition:background .2s}
 .topnav a:hover,.topnav a.active,.topnav a.current{background:#681f30}
-.layout{max-width:1350px;grid-template-columns:245px minmax(0,1fr);gap:25px;padding-top:28px}
-.layout>nav{background:#fcf9f3}
+.layout{max-width:1350px;padding-top:28px}
 .layout>main{background:#fcf9f3}
 .layout>main h1,.layout>main h2,.layout>main h3{color:#681f30}
 .layout>main a{color:#762e3d}
@@ -22,7 +21,6 @@ footer{max-width:1350px}
 @media(max-width:580px){.masthead-inner{padding:18px;min-height:125px}.masthead .identity h1{font-size:37px}.masthead .identity p{font-size:11px;letter-spacing:.07em}.masthead .crest{height:90px;width:95px}.topnav a{font-size:13px;padding:11px 12px}}
 @media print{.masthead{border-bottom:1px solid #ddd}.masthead-inner{min-height:0}.masthead .crest{height:80px}}
 
-.layout.layout-wide { grid-template-columns: minmax(0, 1fr); }
 .layout > main .article-return { margin: 0 0 1rem; font-size: .95rem; }
 .coops-artikeloverzicht .article-cards {
   display: grid;
@@ -48,4 +46,24 @@ footer{max-width:1350px}
 .coops-artikeloverzicht .article-cards a:focus-visible {
   border-color: var(--wine);
   background: #f1e8db;
+}
+
+.biografieen-overzicht .coops-artikeloverzicht h3 {
+  border-bottom: 1px solid #ded3c4;
+  margin: 2rem 0 .9rem;
+  padding-bottom: .5rem;
+}
+.biografieen-overzicht .article-cards { gap: .85rem; }
+.biografieen-overzicht .article-cards a {
+  justify-content: space-between;
+  gap: .75rem;
+  min-height: 4.2rem;
+  border-inline-start: 3px solid #b68c47;
+  background: #fffdf8;
+}
+.biografieen-overzicht .article-cards a::after {
+  content: '›' / '';
+  flex: none;
+  color: var(--forest);
+  font-size: 1.3rem;
 }
