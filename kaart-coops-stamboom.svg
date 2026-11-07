@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="690" viewBox="0 0 1040 690" role="img" aria-labelledby="title desc">
+  <title id="title">Stamboom van de familie Coops</title>
+  <desc id="desc">Generaties I tot en met VI vanaf Coop Muller de Oude. Bij generatie VI staan de genoemde kinderen van Coop Coops uit Hengelo en Jan Coops uit Zelhem.</desc>
+  <defs>
+    <radialGradient id="papier">
+      <stop stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#eee1cc"/>
+    </radialGradient>
+    <g id="hoek" fill="none" stroke="#a17a47" stroke-width="1.4">
+      <path d="M31 100V31h69M38 77V38h39M39 64c18 0 25-7 25-25M43 53c7 0 10-3 10-10"/>
+      <path d="M32 34l4-4 4 4-4 4z" fill="#a17a47"/>
+    </g>
+  </defs>
+  <rect width="1040" height="690" fill="url(#papier)"/>
+  <g fill="none" stroke="#ad8757">
+    <rect x="17" y="17" width="1006" height="656"/>
+    <rect x="23" y="23" width="994" height="644" stroke-opacity=".55"/>
+  </g>
+  <use href="#hoek"/>
+  <use href="#hoek" transform="translate(1040) scale(-1 1)"/>
+  <use href="#hoek" transform="translate(0 690) scale(1 -1)"/>
+  <use href="#hoek" transform="translate(1040 690) scale(-1 -1)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="520" y="53" fill="#173b34" font-size="19" letter-spacing="4">FAMILIE COOPS</text>
+    <text x="520" y="94" fill="#681f30" font-size="44">Stamboom</text>
+    <path d="M330 111h173m34 0h173m-190-6 6 6-6 6-6-6z" fill="#a17a47" stroke="#a17a47"/>
+
+    <g fill="none" stroke="#9a7547" stroke-width="2">
+      <path d="M520 167v14m0 40v14m0 40v19M295 294h573m-573 0v22m349-22v22m224-22v22"/>
+      <path d="M295 360v22H164v25m131-25h124v25M644 360v22h10v25m-10-25h224v25"/>
+      <path d="M164 453v32h104v25M654 453v32h80v25"/>
+    </g>
+
+    <g fill="#173b34" font-size="20" text-anchor="start">
+      <text x="51" y="155">I</text><text x="51" y="209">II</text><text x="51" y="263">III</text>
+      <text x="51" y="345">IV</text><text x="51" y="435">V</text><text x="51" y="550">VI</text>
+    </g>
+
+    <g fill="#fffaf0" stroke="#ba986a">
+      <rect x="352" y="127" width="336" height="40" rx="2"/>
+      <rect x="352" y="181" width="336" height="40" rx="2"/>
+      <rect x="352" y="235" width="336" height="40" rx="2"/>
+      <rect x="190" y="316" width="210" height="44" rx="2"/>
+      <rect x="539" y="316" width="210" height="44" rx="2"/>
+      <rect x="765" y="316" width="206" height="58" rx="2"/>
+      <rect x="92" y="407" width="144" height="46" rx="2"/>
+      <rect x="251" y="407" width="336" height="46" rx="2"/>
+      <rect x="594" y="407" width="120" height="46" rx="2"/>
+      <rect x="765" y="407" width="206" height="46" rx="2"/>
+    </g>
+
+    <g fill="#681f30" font-size="23">
+      <text x="520" y="155">Coop Muller de Oude</text>
+      <text x="520" y="209">Coop de jonge muller</text>
+      <text x="520" y="263">Jan Coops</text>
+      <text x="295" y="346">Herman Coops</text>
+      <text x="644" y="346">Hendrik Coops</text>
+    </g>
+    <g fill="#173b34" font-size="18">
+      <text x="868" y="340">Jenneken · Gerrit</text>
+      <text x="868" y="361">Jaspera · Jan</text>
+      <text x="164" y="436">Coop Coops</text>
+      <text x="419" y="436">Jan Coops · Berentien · Berent</text>
+      <text x="654" y="436">Jan Coops</text>
+      <text x="868" y="436">Lambert · Enneke</text>
+    </g>
+
+    <g fill="#fbf6e9" stroke="#ba986a">
+      <rect x="92" y="510" width="352" height="115" rx="2"/>
+      <rect x="496" y="510" width="476" height="115" rx="2"/>
+    </g>
+    <g fill="#173b34">
+      <rect x="92" y="510" width="352" height="29" rx="2"/>
+      <rect x="496" y="510" width="476" height="29" rx="2"/>
+    </g>
+    <g fill="#fff5e5" font-size="15" letter-spacing="1.5">
+      <text x="268" y="530">KINDEREN VAN COOP COOPS</text>
+      <text x="734" y="530">KINDEREN VAN JAN COOPS UIT ZELHEM</text>
+    </g>
+    <g fill="#173b34" font-size="18">
+      <text x="268" y="566">Jan · Hermken · Grietjen</text>
+      <text x="268" y="594">Maria · Reintien · Berentien</text>
+      <text x="734" y="562">Wendelina · Hendrik · Godert · Helena</text>
+      <text x="734" y="590">Agnes Margaretha · Jan · Derk · Joost</text>
+    </g>
+    <text x="520" y="651" fill="#6a5743" font-style="italic" font-size="16">Naar de genealogie van Coop Muller de Oude</text>
+  </g>
+</svg>

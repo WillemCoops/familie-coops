@@ -17,3 +17,28 @@ a{color:inherit}.masthead{background:linear-gradient(100deg,#f1e8db 0%,#fbf8f2 6
 .foot{border-top:1px solid #e0d6c7;text-align:center;color:#766f63;padding:23px;font:12px Arial,sans-serif;line-height:1.6}
 @media(max-width:1000px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.topnav a{padding:13px 16px;font-size:15px}}
 @media(max-width:580px){.masthead-inner{padding:18px;min-height:125px}.identity h1{font-size:37px}.identity p{font-size:11px;letter-spacing:.07em}.crest{height:90px;width:95px}.hero{padding:30px 20px}.cards{padding:0 16px 35px;grid-template-columns:1fr}.card img{height:190px}.topnav a{font-size:13px;padding:11px 12px}}
+
+/* Historische prenten op de tegels van de startpagina. */
+.kaartprent {
+  height: 166px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse at center, #fffaf1, #eee1cc);
+  border: 1px solid #ad8757;
+  outline: 1px solid #cdb28a;
+  outline-offset: -5px;
+}
+.card .kaartprent img {
+  width: auto;
+  max-width: 82%;
+  height: 82%;
+  min-height: 0;
+  box-sizing: content-box;
+  object-fit: contain;
+  filter: none;
+  border: 1px solid #ad8757;
+  box-shadow: 0 2px 7px #46371b30;
+}
+.card .kaartprent-portret img { border-radius: 50%; }
+.card .kaartprent-wapen img { border: 0; box-shadow: none; }
+@media (max-width: 580px) { .kaartprent { height: 190px; } }

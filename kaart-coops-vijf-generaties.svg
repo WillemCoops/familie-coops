@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="550" viewBox="0 0 880 550" role="img" aria-labelledby="title description">
+  <title id="title">Familie Coops · De eerste vijf generaties</title>
+  <desc id="description">Coop Muller de Oude, Coop de jonge muller en Jan Coops vormen generaties één tot en met drie. Jan heeft zes in de genealogie vermelde kinderen. Van Herman en Hendrik staan ook de zeven vermelde kinderen in generatie vijf in dit overzicht.</desc>
+  <defs>
+    <pattern id="paper" width="17" height="17" patternUnits="userSpaceOnUse">
+      <rect width="17" height="17" fill="#f6efe2"/>
+      <path d="M1 5h2m8 8h3" stroke="#b99d73" stroke-opacity=".14" stroke-width=".8"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="550" fill="url(#paper)"/>
+  <rect x="15" y="15" width="850" height="520" rx="3" fill="none" stroke="#ae8753"/>
+  <rect x="21" y="21" width="838" height="508" rx="2" fill="none" stroke="#cdb28a" stroke-opacity=".62"/>
+  <g font-family="Georgia, serif" text-anchor="middle">
+    <text x="440" y="49" fill="#21443b" font-size="17" letter-spacing="4">FAMILIE COOPS</text>
+    <text x="440" y="82" fill="#681f30" font-size="34">De eerste vijf generaties</text>
+    <path d="M332 98h92m32 0h92" stroke="#ae8753"/>
+    <path d="M440 93l5 5-5 5-5-5z" fill="#ae8753"/>
+    <g fill="none" stroke="#9c774b" stroke-width="2">
+      <path d="M440 163v14m0 46v14m0 46v20M185 303h535M185 303v17m270-17v17m265-17v17"/>
+      <path d="M185 367v39m270-39v39"/>
+    </g>
+    <g fill="#21443b" font-size="21" text-anchor="start">
+      <text x="48" y="146">I</text><text x="48" y="207">II</text><text x="48" y="267">III</text><text x="48" y="351">IV</text><text x="48" y="452">V</text>
+    </g>
+    <g fill="#fffaf0" stroke="#bd9b6a" stroke-width="1.2">
+      <rect x="274" y="117" width="332" height="46" rx="5"/>
+      <rect x="274" y="177" width="332" height="46" rx="5"/>
+      <rect x="274" y="237" width="332" height="46" rx="5"/>
+      <rect x="83" y="320" width="204" height="47" rx="5"/>
+      <rect x="353" y="320" width="204" height="47" rx="5"/>
+      <rect x="597" y="320" width="246" height="61" rx="5"/>
+      <rect x="83" y="406" width="204" height="93" rx="5"/>
+      <rect x="353" y="406" width="204" height="93" rx="5"/>
+    </g>
+    <g fill="#681f30" font-size="24">
+      <text x="440" y="147">Coop Muller de Oude</text>
+      <text x="440" y="207">Coop de jonge muller</text>
+      <text x="440" y="267">Jan Coops</text>
+      <text x="185" y="351">Herman Coops</text>
+      <text x="455" y="351">Hendrik Coops</text>
+    </g>
+    <g fill="#21443b" font-size="18">
+      <text x="720" y="345">Jenneken · Gerrit</text>
+      <text x="720" y="369">Jaspera · Jan</text>
+      <text x="185" y="442">Coop Coops · Jan Coops</text>
+      <text x="185" y="474">Berentien · Berent</text>
+      <text x="455" y="442">Jan Coops · Lambert</text>
+      <text x="455" y="474">Enneke</text>
+    </g>
+    <text x="720" y="461" fill="#6a5743" font-size="15" font-style="italic">Volgens de genealogie</text>
+    <text x="720" y="481" fill="#6a5743" font-size="15" font-style="italic">van Coop Muller de Oude</text>
+  </g>
+</svg>
