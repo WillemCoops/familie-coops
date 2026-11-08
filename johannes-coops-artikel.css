@@ -17,12 +17,7 @@ a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 .wrap { width: min(1120px, 100% - 3rem); margin-inline: auto; }
 .skip { position: absolute; left: 1rem; top: -10rem; z-index: 2; padding: .5rem 1rem; background: white; }
 .skip:focus { top: .5rem; }
-.masthead { background: var(--dark); color: var(--light); border-bottom: 3px solid #a27d4b; }
-.masthead-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem 2rem; padding-block: 1rem; }
-.masthead a { color: inherit; }
-.brand { font-size: 1.55rem; text-decoration: none; }
-.masthead nav, .contents { display: flex; flex-wrap: wrap; gap: .55rem 1.35rem; font: .9rem/1.5 system-ui, sans-serif; }
-.masthead nav a { padding-block: .25rem; }
+.contents { display: flex; flex-wrap: wrap; gap: .55rem 1.35rem; font: .9rem/1.5 system-ui, sans-serif; }
 .hero { display: grid; grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr); align-items: center; gap: clamp(1.5rem, 5vw, 4rem); padding-block: clamp(2rem, 6vw, 5rem) 2.4rem; }
 .eyebrow { margin: 0 0 .75rem; color: var(--wine); font: 650 .76rem/1.4 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .12em; }
 h1, h2, h3 { text-wrap: balance; }
@@ -66,7 +61,7 @@ p { margin: 0 0 1rem; }
   .contents { justify-content: flex-start; }
 }
 @media print {
-  .masthead nav, .contents, .button, .footer, .skip { display: none; }
+  .topnav, .contents, .button, .footer, .skip { display: none; }
   body, .masthead, .callout { background: white; color: black; }
   .hero { display: block; padding-top: 1rem; }
   figure { width: min(100%, 420px); break-inside: avoid; box-shadow: none; }
